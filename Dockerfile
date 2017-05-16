@@ -1,7 +1,7 @@
 FROM python:slim
 MAINTAINER Zachary Zaro zach@mavenclinic.com
 
-RUN pip install flower redis
+RUN pip install flower==0.7.1 redis
 
 # For the web interface, this is the default port in the docs
 EXPOSE 5555
